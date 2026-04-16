@@ -1,0 +1,16 @@
+[project]
+name = "dfx"
+version = "0.0.1"
+description = ""
+readme = ""
+requires-python = "==3.10.*"
+dependencies = [
+    "pyproj==3.7.1",
+]
+
+[dependency-groups]
+dev = [
+    "mypy==1.20.1",
+    "pre-commit==4.5.1",
+    "ruff==0.15.10",
+]
